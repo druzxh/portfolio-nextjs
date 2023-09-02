@@ -7,7 +7,7 @@ export default function Sidebar() {
                 <h1 className="text-5xl text-orange-700">Hello Developers,</h1>
             </div>
             <div className="text-3xl mt-4">
-                <p>I'm Badrudin.</p>
+                <p>I&apos;m Badrudin.</p>
                 <p>I build things for the web.</p>
             </div>
             <div className="mt-4 ">
@@ -31,6 +31,5 @@ export default function Sidebar() {
                 </Link>
             </div>
         </>
-
     )
 }
