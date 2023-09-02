@@ -2,7 +2,6 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import Sidebar from './components/sidebar'
 const inter = Inter({ subsets: ['latin'] })
-import sidebarStyles from './styles/sidebar.module.css'
 
 export const metadata = {
   title: 'Badrudin - Web Developer',
@@ -10,17 +9,16 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
+  let open = false
   return (
     <html lang="en">
       <body className={inter.className}>
 
-        {/* Left Sidebar */}
-        <div className={`container p-20 justify-center items-center w-2/4 h-screen `}>
+        <div className={`p-20 justify-center items-center 3/12`}>
           <Sidebar />
         </div>
 
-        {/* Right Content */}
-        <div className={`h-screen overflow-y-auto`}>
+        <div className={`w-9/12 h-screen overflow-y-auto`}>
           {children}
         </div>
 
