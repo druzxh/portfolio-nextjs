@@ -4,7 +4,7 @@ const nextConfig = {
     assetPrefix: '/portfolio-nextjs/',
     output: 'export',
     async generateStaticParams() {
-        const paths = ['/', '/about', '/experience', '/projects']; // Gantilah dengan daftar halaman yang Anda inginkan
+        const paths = ['/', '/about', '/experience', '/projects'];
         return paths.map((path) => ({ params: { slug: path } }));
     },
 };
