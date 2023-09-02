@@ -10,3 +10,10 @@ const nextConfig = {
 };
 
 module.exports = nextConfig;
+
+// // Config development
+// /** @type {import('next').NextConfig} */
+// const nextConfig = {
+// };
+
+// module.exports = nextConfig;

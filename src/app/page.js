@@ -52,7 +52,7 @@ export default function Home() {
       <div className="bg-gray-100 p-12 ">
         <div className="container mx-auto">
           <div className="bg-gray-200 p-12 rounded-lg">
-            <h2 className="text-3xl font-extrabold text-center mb-8">Our Services</h2>
+            <h2 className="text-3xl font-extrabold text-center mb-8">Can I Help?</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {/* Service 1 */}
               <div className="bg-white p-6 rounded-lg shadow-md">
@@ -104,9 +104,14 @@ export default function Home() {
       <div className="p-12">
         <div className="container mx-auto">
           <h2 className="text-3xl font-extrabold text-center mb-8">Contact Me</h2>
-          <p className="text-lg text-gray-700 text-center">
-            Have questions or want to discuss a project? Feel free to <a href="/contact" className="text-blue-500 hover:underline">contact me</a> anytime.
-          </p>
+          <div className="grid">
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <p className="text-lg text-gray-700 text-center">
+                Have questions or want to discuss a project? Feel free to <a href="/contact" className="text-blue-500 hover:underline">contact me</a> anytime.
+              </p>
+              <h3 className="text-xl font-semibold mb-2 text-center">Lets Build.</h3>
+            </div>
+          </div>
         </div>
       </div>
     </main>
