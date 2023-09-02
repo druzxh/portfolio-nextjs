@@ -2,20 +2,11 @@
 const nextConfig = {
     basePath: '/portfolio-nextjs',
     assetPrefix: '/portfolio-nextjs/',
-};
-
-module.exports = {
-    ...nextConfig,
-    exportPathMap: async function (
-        defaultPathMap,
-        { dev, dir, outDir, distDir, buildId }
-    ) {
-        return {
-            '/': { page: '/' },
-            '/home': { page: '/home' },
-            '/about': { page: '/about' },
-            '/experience': { page: '/about' },
-            '/projects': { page: '/projects' },
-        };
+    output: 'export',
+    async generateStaticParams() {
+        const paths = ['/', '/about', '/experience', '/projects']; // Gantilah dengan daftar halaman yang Anda inginkan
+        return paths.map((path) => ({ params: { slug: path } }));
     },
 };
+
+module.exports = nextConfig;
