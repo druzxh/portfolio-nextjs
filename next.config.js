@@ -4,7 +4,7 @@ const nextConfig = {
     assetPrefix: '/portfolio-nextjs/',
     output: 'export',
     async generateStaticParams() {
-        const paths = ['/', '/about', '/experience', '/projects', '/assets/Badrudin_CV.pdf'];
+        const paths = ['/', '/about', '/experience', '/projects'];
         return paths.map((path) => ({ params: { slug: path } }));
     },
 };
