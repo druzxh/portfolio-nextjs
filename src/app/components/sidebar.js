@@ -10,7 +10,7 @@ export default function Sidebar() {
                     <div className="flex items-center space-x-4">
                         <Link href="/">
                             <Image
-                                src="/assets/logo512.png"
+                                src="https://druzxh.github.io/portfolio-nextjs/assets/logo512.png"
                                 alt="Logo"
                                 width={130}
                                 height={130}
@@ -48,7 +48,7 @@ export default function Sidebar() {
                 <div className="m-5 rounded-lg relative overflow-hidden">
                     <div className="rounded-lg border-2 border-yellow-500">
                         <Image
-                            src="/assets/profile.png"
+                            src="https://druzxh.github.io/portfolio-nextjs/assets/profile.png"
                             alt="profile"
                             height={200}
                             width={200}
