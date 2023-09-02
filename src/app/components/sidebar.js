@@ -52,7 +52,7 @@ export default function Sidebar() {
                             alt="profile"
                             height={200}
                             width={200}
-                            className="object-fit brightness-50 w-full h-full transition-transform duration-300 hover:transform hover:scale-105 hover:translate-y-[-10px] hover:translate-x-[-10px] brightness-100"
+                            className="object-fit brightness-50 w-full h-full transition-transform duration-300 hover:transform hover:scale-105 hover:translate-y-[-10px] hover:translate-x-[-10px] hover:brightness-100"
                         />
                     </div>
                 </div>

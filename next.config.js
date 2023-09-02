@@ -14,9 +14,6 @@
 // Config development
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    images: {
-        domains: ['druzxh.github.io'],
-    },
 };
 
 module.exports = nextConfig;
