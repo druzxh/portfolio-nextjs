@@ -12,8 +12,8 @@ export default function Sidebar() {
                             <Image
                                 src="https://druzxh.github.io/portfolio-nextjs/assets/logo512.png"
                                 alt="Logo"
-                                width={80}
-                                height={80}
+                                width={130}
+                                height={130}
                             />
                         </Link>
                         <Link href="/">
@@ -50,9 +50,9 @@ export default function Sidebar() {
                         <Image
                             src="https://druzxh.github.io/portfolio-nextjs/assets/profile.png"
                             alt="profile"
-                            height={150}
-                            width={150}
-                            className="object-cover brightness-50 w-full h-full transition-transform duration-300 hover:transform hover:scale-105 hover:translate-y-[-10px] hover:translate-x-[-10px] brightness-100"
+                            height={200}
+                            width={200}
+                            className="object-fit brightness-50 w-full h-full transition-transform duration-300 hover:transform hover:scale-105 hover:translate-y-[-10px] hover:translate-x-[-10px] brightness-100"
                         />
                     </div>
                 </div>
