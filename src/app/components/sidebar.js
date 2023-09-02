@@ -8,32 +8,30 @@ export default function Sidebar() {
             <div>
                 <div className="flex justify-between items-centermb-5">
                     <div className="flex items-center space-x-4">
-                        <Link href={"/"}> {/* Tambah Link disini */}
-                            <a>
-                                <Image
-                                    src="/assets/logo512.png"
-                                    alt="Logo"
-                                    width={130}
-                                    height={130}
-                                />
-                            </a>
+                        <Link href="/">
+                            <Image
+                                src="/assets/logo512.png"
+                                alt="Logo"
+                                width={130}
+                                height={130}
+                            />
                         </Link>
-                        <Link href={"/"}>
+                        <Link href="/">
                             <button className="rounded-lg bg-sky-700 text-white hover:bg-sky-800 p-2">
                                 Home
                             </button>
                         </Link>
-                        <Link href={"/about"}>
+                        <Link href="/about">
                             <button className="rounded-lg bg-sky-700 text-white hover:bg-sky-800 p-2">
                                 About
                             </button>
                         </Link>
-                        <Link href={"/experience"}>
+                        <Link href="/experience">
                             <button className="rounded-lg bg-sky-700 text-white hover:bg-sky-800 p-2">
                                 Experience
                             </button>
                         </Link>
-                        <Link href={"/projects"}>
+                        <Link href="/projects">
                             <button className="rounded-lg bg-sky-700 text-white hover:bg-sky-800 p-2">
                                 Projects
                             </button>
@@ -59,23 +57,26 @@ export default function Sidebar() {
                     </div>
                 </div>
                 <div className="flex justify-center space-x-4">
-                    <a href="https://www.instagram.com/bd.ruu" target="_blank" rel="noopener noreferrer">
+                    <Link href="https://www.instagram.com/bd.ruu" target="_blank" rel="noopener noreferrer">
                         <button className="rounded-lg bg-sky-700 text-white hover:bg-sky-800 p-2">
                             IG
-                        </button>                    </a>
-                    <a href="https://www.linkedin.com/in/badrudin-42a598246/" target="_blank" rel="noopener noreferrer">
+                        </button>
+                    </Link>
+                    <Link href="https://www.linkedin.com/in/badrudin-42a598246/" target="_blank" rel="noopener noreferrer">
                         <button className="rounded-lg bg-sky-700 text-white hover:bg-sky-800 p-2">
                             LinkedIn
-                        </button>                    </a>
-                    <a href="https://github.com/druzxh?tab=repositories" target="_blank" rel="noopener noreferrer">
+                        </button>
+                    </Link>
+                    <Link href="https://github.com/druzxh?tab=repositories" target="_blank" rel="noopener noreferrer">
                         <button className="rounded-lg bg-sky-700 text-white hover:bg-sky-800 p-2">
                             Github
-                        </button>                    </a>
-                    <a href="/assets/Badrudin_CV.pdf" target="_blank" rel="noopener noreferrer">
+                        </button>
+                    </Link>
+                    <Link href="/assets/Badrudin_CV.pdf" target="_blank" rel="noopener noreferrer">
                         <button className="rounded-lg bg-sky-700 text-white hover:bg-sky-800 p-2">
                             Resume
                         </button>
-                    </a>
+                    </Link>
                 </div>
             </div>
         </>
